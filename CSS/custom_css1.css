@@ -1,0 +1,93 @@
+header{
+    padding:.5em;
+    margin:auto;
+    height:50px;
+    border-bottom:.1em solid black;
+}
+.accounts h1{
+    text-align:left;
+}
+.acc figure{
+    border:.3em solid black;
+    width:200px;
+    box-shadow: 0px 0px 0px 2px gray;
+    float:left;
+}
+img{
+    width:100%;
+}
+#quickaccess img{
+    margin-top:1em;
+    width:80%;
+}
+cardcontainer.figcaption{
+    margin-bottom: 10em;
+}
+header h1{
+    width:400px;
+    float:left;
+    text-align: left;
+    margin-left:1em;
+}
+header .material-icons{
+    font-size:48px;
+    float:right;
+    margin-right:1em;
+    color:black;
+}
+header .material-icons:hover{
+   box-shadow: 0px 0px 0px 2px black;
+}
+body{
+    width:800px;
+    margin:auto;
+    background-color: #CCCCCC;
+}
+h1{
+    text-align: center;
+    margin:auto;
+}
+#quickaccess #card-container{
+    float:left;
+    padding:1.4em;
+    margin:auto;
+}
+#quickaccess #card-container a{
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 425px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F1F1F1;
+    color: #696463;    
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 12pt;
+    box-shadow: inset 0px 0px 20px gray;
+    border-radius: 20px;
+    margin:auto;
+    
+}   
+html{
+    font-family:sans-serif;
+}
+figcaption p{
+    font-size: 14;
+}
+#logo img{
+    width:20%;
+    margin:auto;
+    float:left;
+}
+#logo h1{
+    margin:auto;
+    width:80%;
+    float:left;
+    padding-top:30px;
+    }
+#logo p{
+    float:left;
+    width:80%;
+    clear:right;
+    font-style: italic;
+}

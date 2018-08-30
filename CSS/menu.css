@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2016, 4:17:57 PM
+    Author     : Administrator
+*/
+
+* {
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-family: impact;
+}
+
+.menuItem {
+    text-align: center;
+    border: 1px;
+    list-style: none;
+}
+.menuSection {
+    font-family: impact;
+    text-align: center;
+    
+    border: 2px;
+}
+.menuPage{
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 12px #777777;
+  
+}

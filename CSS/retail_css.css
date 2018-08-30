@@ -1,0 +1,205 @@
+body{
+    width:800px;
+    margin:auto;
+}
+#card {
+    transform-style: preserve-3d;
+    perspective: 1000;
+    width: 600px;
+    height: 150px;
+    position: relative;
+    margin: 10px;
+    float: left;
+    text-align: center;   
+}  
+h1{
+    text-align: center;
+    margin:auto;
+}
+.back, .front {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform .7s ease-in;
+    width:600px;
+    height:150px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;    
+    font-weight: bold;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    z-index:0;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    display: block;
+}
+.back {
+    transform: rotateY(180deg);
+    overflow: hidden;
+    background:#333;
+    width: 600px;
+    height: 200px;
+}   
+.front {
+}
+#brennans{
+    background-image: url(../images/brennansburger2.jpg);
+}
+#skinny{
+    background-image: url(../images/skinnypancakefinal.jpg);
+}
+#newWorld{
+    background-image: url(../images/newworld1.jpg);
+}
+#marche{
+    background-image: url(../images/marche3.jpg);
+}
+#northside{
+    background-image: url(../images/northside1.jpg);
+}
+#benJerrys{
+    background-image: url(../images/icecream.jpg);
+}
+#card-container1{
+    display: inline-block;
+    text-align: center;
+    clear:both;
+    margin: auto;
+}  
+#card-container2{
+    display: inline-block;
+    text-align: center;
+    clear:both;
+    margin: auto;
+}  
+#card-container3{
+    display: inline-block;
+    text-align: center;
+    clear:both;
+    margin: auto;
+}  
+#card-container4{
+    display: inline-block;
+    text-align: center;
+    clear:both;
+    margin: auto;
+}  
+#card-container5{
+    display: inline-block;
+    text-align: center;
+    clear:both;
+    margin: auto;
+}  
+
+#card-container6{
+    display: inline-block;
+    text-align: center;
+    clear:both;
+    margin: auto;
+}  
+#card-container1.open{
+    margin-bottom: 50px;
+}
+#card-container1.open .back {   
+    transform: rotateY(0deg);
+    transition-duration: 0.7s;
+    position:absolute;
+    left:1;
+    top:1;
+    z-index: 1;
+}
+#card-container1.open .front {      
+    transform: rotateY(-180deg);
+    transition-duration: 0.7s;
+}
+#card-container2.open{
+    margin-bottom: 50px;
+}
+#card-container2.open .back {   
+    transform: rotateY(0deg);
+    transition-duration: 0.7s;
+    position:absolute;
+    left:1;
+    top:1;
+    z-index: 1;
+}
+#card-container2.open .front {      
+    transform: rotateY(-180deg);
+    transition-duration: 0.7s;
+}
+#card-container3.open{
+    margin-bottom: 50px;
+}
+#card-container3.open .back {   
+    transform: rotateY(0deg);
+    transition-duration: 0.7s;
+    position:absolute;
+    left:1;
+    top:1;
+    z-index: 1;
+}
+#card-container3.open .front {      
+    transform: rotateY(-180deg);
+    transition-duration: 0.7s;
+}
+#card-container4.open{
+    margin-bottom: 50px;
+}
+#card-container4.open .back {   
+    transform: rotateY(0deg);
+    transition-duration: 0.7s;
+    position:absolute;
+    left:1;
+    top:1;
+    z-index: 1;
+}
+#card-container4.open .front {      
+    transform: rotateY(-180deg);
+    transition-duration: 0.7s;
+}
+#card-container5.open{
+    margin-bottom: 50px;
+}
+#card-container5.open .back {   
+    transform: rotateY(0deg);
+    transition-duration: 0.7s;
+    position:absolute;
+    left:1;
+    top:1;
+    z-index: 1;
+}
+#card-container5.open .front {      
+    transform: rotateY(-180deg);
+    transition-duration: 0.7s;
+}
+
+#card-container6.open{
+    margin-bottom: 50px;
+}
+#card-container6.open .back {   
+    transform: rotateY(0deg);
+    transition-duration: 0.7s;
+    position:absolute;
+    left:1;
+    top:1;
+    z-index: 1;
+}
+#card-container6.open .front {      
+    transform: rotateY(-180deg);
+    transition-duration: 0.7s;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    font-size: 18pt;
+}
+li{
+    font-size: 12pt; 
+}
+.back a{
+  
+  font: bold 25px Arial;
+  text-decoration: none;
+  background-color: green;
+  color: #333333;
+  padding: 6px 12px 6px 12px;
+}

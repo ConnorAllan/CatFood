@@ -1,0 +1,209 @@
+ /* Univeral */
+body{
+    max-width:800px;
+    width:80%;
+    margin:auto;
+    background-color: lightgray;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+h1{
+    text-align: center;
+    margin:auto;
+}
+*{
+    font-family:sans-serif;
+}
+p {
+    text-align: center;
+}
+h2{
+    margin-left:2em;
+    padding-top:1em;
+}
+html{
+    background-color: #333;    
+}
+
+/* Top */
+header.top{
+    font-size:20px;
+    width:100%;
+    padding-top:.6em;
+    margin-bottom:.6em;
+    border-bottom:.1em solid black;
+    
+}
+header.top h1{
+    padding-left:.7em;
+    text-align:left;
+    display:inline;
+}
+header .material-icons{
+    font-size:48px;
+    margin-right:.5em;
+    margin-left:.5em;
+    color:black;
+}
+header .material-icons:hover{
+    box-shadow: 0px 0px 0px 2px black;
+}
+
+
+/* DashBoard */
+.dashphoto{
+    margin-top:1em;
+    width:100%;
+}
+#quickaccess #card-container{
+   margin:auto;
+   display:inline;
+}
+#quickaccess #card-container #card{
+    display:inline-block;
+    height:18em;
+    max-height:33%;
+    width:45%;
+    overflow: hidden;
+}
+#quickaccess #card-container a{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F1F1F1;
+    color: #696463;    
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 12pt;
+    box-shadow: inset 0px 0px 20px gray;
+    border-radius: 20px;
+    margin-bottom:1em;
+    margin-left:1em;
+}
+
+/* Logo */
+div#logo{
+    display:inline-table;
+}
+#logo img{
+    display:inline;
+    width:20%;
+    margin:auto;
+}
+#logo h1{
+    display:inline;
+    margin:auto;
+    text-align:center;
+    width:80%;
+    padding-top:30px;
+}
+#logo p{
+    width:100%;
+    font-style: italic;
+    display:inline-block;
+    margin:auto;
+}
+
+/* Account */
+.accounts h1{
+    text-align:left;
+}
+.acc figure{
+    border:.3em solid black;
+    width:200px;
+    box-shadow: 0px 0px 0px 2px gray;
+}
+
+/* Favorites */
+.unlimitedcolumn {
+    width: 40%;
+    margin: auto;
+}
+#retailcolumn{
+    width:46%;
+    margin:.9em;
+    padding:0;
+    box-shadow:0px 0px 0px 2px orange;
+    background-color:#f1f1f1;
+}
+
+/* Statistics */
+.pointsgraph {
+    box-shadow: 1px 1px 1px 5px gray;
+    border-radius:5px;
+    padding:1em;
+    height: 350px;
+    width: 80px;
+    margin-left: 2em;
+    padding:0;
+    position: relative;
+    font-weight: bold;
+}
+.pointsgraph li {
+    border: 1px solid #555;
+    border-bottom: none;
+    bottom: 0;
+    list-style:none;
+    margin: auto;
+    padding: 0m;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background-color: #66ff66;
+    font-weight: bold;
+}
+.pointsPercentage{
+    box-shadow: 1px 1px 1px 5px gray;
+    border-radius:5px;
+    padding:1em;
+    height: 350px;
+    width:80px;
+    margin-left: .5em;;
+    padding: 0;
+    position: relative;
+    font-weight: bold;
+}
+.pointsPercentage li {
+    border: 1px solid #555;
+    border-bottom: none;
+    bottom: 0;
+    list-style:none;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background-color: goldenrod;
+    font-weight: bold;
+}   
+.graph{
+    box-shadow: inset 0px 0px 20px gray;
+    border-radius:5px;
+    background-color:white;
+    height:560px;
+}
+.graph div{
+    width:100%;
+    height:100%;
+    padding-top: 5px;
+}
+figure.key{
+    border: double;
+    box-shadow: 1px 1px 1px 5px gray;
+    border-radius:5px;
+    padding:1em;
+    width:180px;
+    text-align: center;
+    background-color: lightgray;
+}    
+li.points{
+    background-color: darkgreen;
+}
+li.percentageLeft{
+    background-color:#666600;
+}
+p.statistics{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: -20px;
+}

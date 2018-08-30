@@ -1,0 +1,18 @@
+.unlimitedcolumn {
+    float: left;
+    width: 40%;
+    margin: auto;
+}
+#retailcolumn{
+    width:46%;
+    float:left;
+    margin:.9em;
+    padding:0;
+    box-shadow:0px 0px 0px 2px orange;
+    background-color:#f1f1f1;
+}
+
+p {
+    text-align: center;
+}
+

@@ -1,0 +1,95 @@
+.pointsgraph {
+    box-shadow: 1px 1px 1px 5px gray;
+    border-radius:5px;
+    padding:1em;
+    height: 350px;
+    width: 80px;
+    margin-left: 2em;
+    padding:0;
+    position: relative;
+    float:left;
+    font-weight: bold;
+}
+
+.pointsgraph li {
+    border: 1px solid #555;
+    border-bottom: none;
+    bottom: 0;
+    list-style:none;
+    margin: auto;
+    padding: 0m;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background-color: #66ff66;
+    font-weight: bold;
+}
+.pointsPercentage{
+
+    box-shadow: 1px 1px 1px 5px gray;
+    border-radius:5px;
+    padding:1em;
+    height: 350px;
+    width:80px;
+    margin-left: .5em;;
+    padding: 0;
+    position: relative;
+    float:left;
+    font-weight: bold;
+}
+.pointsPercentage li {
+    border: 1px solid #555;
+    border-bottom: none;
+    bottom: 0;
+    list-style:none;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background-color: goldenrod;
+    font-weight: bold;
+}   
+.graph{
+    box-shadow: inset 0px 0px 20px gray;
+    border-radius:5px;
+    background-color:white;
+    height:560px;
+}
+.graph div{
+    width:100%;
+    height:100%;
+    padding-top: 5px;
+}
+figure.key{
+    border: double;
+    float:left;
+    box-shadow: 1px 1px 1px 5px gray;
+    border-radius:5px;
+    padding:1em;
+    width:180px;
+    text-align: center;
+    background-color: lightgray;
+}    
+
+h1{
+    margin-left:auto
+}
+h2{
+    margin-left:2em;
+    padding-top:1em;
+}
+
+li.points{
+    background-color: darkgreen;
+}
+
+li.percentageLeft{
+    background-color:#666600;
+}
+p.statistics{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: -20px;
+}
